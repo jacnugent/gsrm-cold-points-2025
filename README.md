@@ -49,7 +49,7 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 		* [Quasi-Biennial Oscillation (QBO) 50 mb](https://psl.noaa.gov/data/timeseries/month/DS/QBO50/)
 	* Plotted in d2_enso_qbo_ts.ipynb
 
-## Helper Scripts
+## Other Files
 ### Python Scripts
 * **split_soundings.py**: Split up a text file containing data from many soundings into individual files that can be read into python.
 * **model_grid.py**: Read in arrays of coordinates of GSRM grids, calculate ICON height, etc.
@@ -61,3 +61,5 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 ### Jupyter Notebooks
 * **find_coords.ipynb**: Get .csv files of SCREAM coordinates.
 * **get_model_vert_inds.ipynb**: Make SCREAM_est_height_12-20km.nc file.
+### Pickle Files
+Contains pickle files created, saved, and used in the notebooks and scripts for plotting outlined above.
