@@ -49,7 +49,8 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 		* [Quasi-Biennial Oscillation (QBO) 50 mb](https://psl.noaa.gov/data/timeseries/month/DS/QBO50/)
 	* Plotted in d2_enso_qbo_ts.ipynb
 
-## Python Scripts
+## Helper Scripts
+### Python Scripts
 * **split_soundings.py**: Split up a text file containing data from many soundings into individual files that can be read into python.
 * **model_grid.py**: Read in arrays of coordinates of GSRM grids, calculate ICON height, etc.
 * **get_d2_data.py**: Read in (already processed/subset) GSRM files for 10x10 regions.
@@ -57,3 +58,6 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 * **bin_overshoot.py** and **bin_obs_overshoot.py**: Bin a variable (ice, frozen water, effective radius, etc.) at cold point-relative levels by Tb-Tcp for GSRMs or observations, respectively.
 * **bin_d2.py**: Make and save histogram files (for the binned plots) of ice/frozen water binned by Tb-Tcp for the GSRMs. Runs bin_overshoot.py.
 * **calc_cold_point....py**: Calculates the number of time steps that each pixel/grid point has an ice mixing ratio above the radiatively-active threshold for a 1 km layer near the cold point. Separate scripts for GSRMs and observations (..._obs...) and for cold point +/- 1000m or cold point only (..._at_cp_only.py)
+### Jupyter Notebooks
+* **find_coords.ipynb**: Get .csv files of SCREAM coordinates.
+* **get_model_vert_inds.ipynb**: Make SCREAM_est_height_12-20km.nc file.
