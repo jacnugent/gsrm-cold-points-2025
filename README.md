@@ -12,6 +12,8 @@ DYAMOND2 (winter phase) output can be accessed by contacting ESiWACE; see instru
 * (TODO!)
 ### DARDAR
 * (TODO!)
+### MERGIR
+Follow the "Subset/Get Data" link on the NCEP/CPC GPM_MERGIR page ([doi:10.5067/P4HZB9N27EKU](https://doi.org/10.5067/P4HZB9N27EKU)). Download links lists for each region/year and then run get_files/get_mergir.sh to download and concatenate files into one file per region. Then run process_files/get_mergir_3h.sh to resample the half hourly files every 3 hours.
 
 ## Figures
 Scripts needed to generate the figures used in the paper. Also includes processing of the QBO/ENSO index data and the IGRA sounding data.
