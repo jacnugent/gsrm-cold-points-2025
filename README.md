@@ -51,6 +51,7 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 * **bin_overshoot.py** and **bin_obs_overshoot.py**: Bin a variable (ice, frozen water, effective radius, etc.) at cold point-relative levels by Tb-Tcp for GSRMs or observations, respectively.
 * **bin_d2.py**: Make and save histogram files (for the binned plots) of ice/frozen water binned by Tb-Tcp for the GSRMs. Runs bin_overshoot.py.
 * **calc_cold_point....py**: Calculates the number of time steps that each pixel/grid point has an ice mixing ratio above the radiatively-active threshold for a 1 km layer near the cold point. Separate scripts for GSRMs and observations (..._obs...) and for cold point +/- 1000m or cold point only (..._at_cp_only.py)
+* **get_era5_climo_ml.py** and **compute_geopotential_on_ml.py**: Helper scripts to download and processes ERA5 reanalysis.
 ### Helper Jupyter Notebooks
 * **find_coords.ipynb**: Get .csv files of SCREAM coordinates.
 * **get_model_vert_inds.ipynb**: Make SCREAM_est_height_12-20km.nc file.
