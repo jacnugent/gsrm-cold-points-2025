@@ -12,10 +12,6 @@ Please note that relative and absolute file paths within the scripts and Jupyter
 ### DARDAR
 * ...
 
-## Helper Scripts
-* (get d2)
-* (split_soundings)
-
 ## Figures
 # TODO: change so it points to notebook for plotting (not the figure) and only include data processing notes (no "plotted in")
 # --> ALSO change figure names to "Fig1_xxx", etc.
@@ -51,4 +47,12 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 	* Data downloaded from NOAA Physical Sciences Laboratory (all links last accessed March 2025): 
 		* [Nino 3.4 SST Index from NOAA ERSST V5](https://psl.noaa.gov/data/timeseries/month/DS/Nino34_CPC/)
 		* [Quasi-Biennial Oscillation (QBO) 50 mb](https://psl.noaa.gov/data/timeseries/month/DS/QBO50/)
-	* Plotted in d2_enso_qbo_ts.ipynb 
+	* Plotted in d2_enso_qbo_ts.ipynb
+
+## Python Scripts
+* **split_soundings.py**: Split up a text file containing data from many soundings into individual files that can be read into python.
+* **model_grid.py**: Read in arrays of coordinates of GSRM grids, calculate ICON height, etc.
+* **get_d2_data.py**: Read in (already processed/subset) GSRM files for 10x10 regions.
+* **biv_hist.py** and **biv_hist_d2.py**: Calculate bivariate histogram of Tb and Tcp for observations or GSRMs, respectively.
+* **bin_overshoot.py** and **bin_obs_overshoot.py**: Bin a variable (ice, frozen water, effective radius, etc.) at cold point-relative levels by Tb-Tcp for GSRMs or observations, respectively.
+* **bin_d2.py**: Make and save histogram files (for the binned plots) of ice/frozen water binned by Tb-Tcp for the GSRMs. Runs bin_overshoot.py.
