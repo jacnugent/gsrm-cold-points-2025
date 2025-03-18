@@ -1,4 +1,4 @@
-# gsrm-cold-points
+# gsrm-cold-points-2025
 Code used in Nugent et al., revised manuscript under review at _Earth and Space Science_ (original preprint [doi:10.22541/essoar.172405869.95851202/v1](https://doi.org/10.22541/essoar.172405869.95851202/v1), August 2024), on the role of cold point-overshooting convection and lofting of cirrus near the cold point on influencing the height and temperature of the cold point tropopause in global storm-resolving models (GSRMs). 
 
 Please note that relative and absolute file paths within the scripts and Jupyter notebooks listed below may have changed since they were last run. 
