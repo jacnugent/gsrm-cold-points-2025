@@ -34,7 +34,7 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 		* Big observation regions binned using analysis from Nugent and Bretherton (2023), *GRL*; see the relevant notebooks from [Figs. 1, 2, S2, and S3 in that repository](https://github.com/jacnugent/tropical-conv-os-2023/tree/main?tab=readme-ov-file#figures-1-2-s2-and-s3)
 	* GSRMs:
 		* Tb-Tcp differences binned in d2_tb-tcp_hist.ipynb
-		* Frozen water binned in binned_by_diffs_d2.sh
+		* Frozen water binned in bin_by_diffs_d2.sh
 	* Plotted in d2_binned_plots_match_obs.ipynb
 * **Figures 6-7, S4-S5**: OIGSSS_joint_hist_SCA.png, OIGSSS_joint_hist_TIM.png, OIGSSS_joint_hist_AMZ.png, OIGSSS_joint_hist_SPC.png
 	* Observation histograms computed in get_Tb-cpT_hist_d2.sh 
