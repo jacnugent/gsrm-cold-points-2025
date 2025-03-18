@@ -6,8 +6,25 @@ Please note that relative and absolute file paths within the scripts and Jupyter
 ## Data Processing
 (Pre)processing and preliminary analysis needed for the DYAMOND2 output, ERA5 reanalysis, and DARDAR observations. Dates/regions/file paths in the processing scripts below should be changed as needed and script headers should be updated.
 ### DYAMOND2
-DYAMOND2 (winter phase) output can be accessed by contacting ESiWACE; see instructions [here](https://www.esiwace.eu/the-project/past-phases/dyamond-initiative). Full descriptions of the models and their outputs are provided by DKRZ [here](https://easy.gems.dkrz.de/DYAMOND/Winter/index.html). In this study, the existing DYAMOND2 output from DKRZ was subset into 10°x10° and/or 30°S - 10°N regions, then processed further for analysis. See below for details:
-* (TODO!)
+DYAMOND2 (winter phase) output can be accessed by contacting ESiWACE; see instructions [here](https://www.esiwace.eu/the-project/past-phases/dyamond-initiative). Full descriptions of the models and their outputs are provided by DKRZ [here](https://easy.gems.dkrz.de/DYAMOND/Winter/index.html). In this study, the existing DYAMOND2 output from DKRZ was subset into 10°x10° and/or 30°S - 10°N regions, then processed further for analysis. See below for details on the scripts that should be run for each step. Note that all of these scripts were written to be submitted as batch jobs and need headers updated before running.
+1. Subset 30°S - 10°N region from each model for temperature, height, w, frozen hydrometeors (ice/snow/graupel), humidity, and OLR (2d variable) and concatenate into one file per model & variable.
+	* GEOS: geos_qiqg.sh, geos_qv.sh, geos_temp.sh, geos_zg.sh, geos_w.sh, sub_geos2d.sh, cat_geos.sh
+	* SCREAM: get_scream_z.sh, scream_q.sh, scream_temp.sh, scream_w.sh, scream_qv.sh, subset_scream.sh, cat_scream.sh
+	* ICON: icon_full_w.sh, icon_pres.sh, icon_qiv.sh, icon_temp.sh, icon_w.sh, subset_icon.sh, cat_icon.sh
+	* gSAM: sam_full_w.sh, sam_qiv.sh, sam_temp.sh, sub_sam.sh, cat_sam.sh
+	* X-SHiELD: subset_shield_3d.sh, subset_shield.sh, cat_shield.sh
+2. Optional: run timesel_3d.sh to drop the first 10 days (spinup period) so file sizes are smaller.
+3. Convert accumulated OLR to 15 min OLR in gSAM and ICON to match the other models: deltat_sam.sh, deltat_icon.sh
+4. Subset global tropics files to the 10°x10° regions:
+   	* 10x10_sub_shield.sh (X-SHiELD only)
+   	* 10x10_subsets_gsri.sh (GEOS, SCREAM, and ICON)
+   	* 10x10_subsets_ns.sh (gSAM only)
+5. Remap the native grid temperature files to 0.25° to calculate the cold point: remapcon_geos.sh, remapcon_icon.sh, remapcon_sam.sh, remapcon_scream.sh, remapcon_shield.sh
+6. Remap the 0.25° temperature files back to the native grid (so you have the same coarsened temperature value for all native grid points that fall within that 0.25°x0.25° box): remapnn_temp_025.sh. This is used to calculate the background cold point index at each native grid cell.
+7. (After running time_avg_cold_point_maps.ipynb, where cold point files are saved):
+	* Remap the cold point indices (0.25° resolution) onto the native grid: remapnn_cpT.sh
+	* Subset the cold point indices for the 10°x10° regions: 10x10_subset_cp_inds.sh
+8. Put the brightness temperature threshold for overshooting convection (i.e., the cold point temperature) onto the native grid: remapnn_tb_thresh_025.nc
 ### ERA5
 Run get_era5_ml.sh to download the model-level reanalysis data. Then run process_era5_ml_itcz.sh to get the temperature and geopotential height files as netcdfs. 
 ### DARDAR
