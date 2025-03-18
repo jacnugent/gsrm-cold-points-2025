@@ -9,11 +9,11 @@ Please note that relative and absolute file paths within the scripts and Jupyter
 DYAMOND2 (winter phase) output can be accessed by contacting ESiWACE; see instructions [here](https://www.esiwace.eu/the-project/past-phases/dyamond-initiative). Full descriptions of the models and their outputs are provided by DKRZ [here](https://easy.gems.dkrz.de/DYAMOND/Winter/index.html).
 
 In this study, the existing DYAMOND2 output from DKRZ was subset into 10°x10° and/or 30°S - 10°N regions, then processed further for analysis:
-* ...
+* (TODO!)
 ### ERA5
-* ...
+* (TODO!)
 ### DARDAR
-* ...
+* (TODO!)
 
 ## Figures
 # TODO: change so it points to notebook for plotting (not the figure) and only include data processing notes (no "plotted in")
@@ -51,6 +51,7 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 		* [Nino 3.4 SST Index from NOAA ERSST V5](https://psl.noaa.gov/data/timeseries/month/DS/Nino34_CPC/)
 		* [Quasi-Biennial Oscillation (QBO) 50 mb](https://psl.noaa.gov/data/timeseries/month/DS/QBO50/)
 	* Plotted in d2_enso_qbo_ts.ipynb
+* **Convective and "other stratospheric" cirrus fractions**: Calculated in d2_cirrus_fractions.ipynb.
 
 ## Other Files
 ### Python Scripts
@@ -65,4 +66,4 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 * **find_coords.ipynb**: Get .csv files of SCREAM coordinates.
 * **get_model_vert_inds.ipynb**: Make SCREAM_est_height_12-20km.nc file.
 ### Pickle Files
-Contains pickle files created, saved, and used in the notebooks and scripts for plotting outlined above.
+Contains pickle files created, saved, and used in the notebooks and scripts for plotting outlined above as well as the colormap used in Figure 2. 
