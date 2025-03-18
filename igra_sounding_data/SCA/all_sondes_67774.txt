@@ -1,0 +1,1119 @@
+<HTML>
+<TITLE>University of Wyoming - Radiosonde Data</TITLE>
+<BODY BGCOLOR="white">
+<H2>67774  Harare (Belvedere) Observations at 00Z 02 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  856.0   1472    0.0    0.0    100   4.49                285.6  298.5  286.3
+  850.0   1535   18.4   16.4     88  14.00                305.4  347.5  308.0
+  825.0   1799   17.0   14.5     85  12.74                306.5  345.1  308.9
+  800.0   2069   15.4   11.4     77  10.69                307.6  340.1  309.5
+  760.0   2479  -33.7  -43.7     36   0.11                259.0  259.3  259.0
+  750.0   2585   12.4    6.4     67   8.10                310.0  335.2  311.5
+  710.0   3057    9.4    7.4     87   9.18                311.6  340.2  313.3
+  700.0   3178    9.0    4.0     71   7.33                312.4  335.5  313.8
+  660.0   3663    7.0   -4.0     45   4.33                315.5  329.6  316.3
+  650.0   3788    6.0   -3.0     52   4.74                315.7  331.1  316.6
+  584.0   4656    2.0  -12.0     35   2.62                320.9  329.8  321.4
+  556.0   5050   -1.1   -3.6     83   5.30                321.7  339.3  322.8
+  550.0   5136   -1.5   -6.5     69   4.30                322.2  336.6  323.1
+  540.0   5282   -2.1  -17.1     31   1.86                323.2  329.8  323.6
+  500.0   5890   -4.1   -7.1     80   4.52                328.0  343.4  328.9
+  456.0   6612   -8.5  -34.5     10   0.45                331.2  333.0  331.3
+  450.0   6715   -9.1  -26.1     24   1.02                331.7  335.5  331.9
+  428.0   7102  -11.1  -14.9     74   2.83                333.9  344.0  334.5
+  400.0   7620  -13.1  -31.1     21   0.72                337.9  340.7  338.0
+  394.0   7735  -13.5  -42.5      7   0.23                338.8  339.8  338.9
+  350.0   8619  -20.1  -50.1      5   0.11                341.6  342.1  341.6
+  300.0   9740  -27.5  -52.5      7   0.10                346.5  346.9  346.5
+  280.0  10196  -31.1  -53.1     10   0.10                348.2  348.7  348.2
+  250.0  10930  -37.5  -45.5     43   0.26                350.2  351.3  350.2
+  230.0  11541  -41.5  -45.5     65   0.29                352.5  353.8  352.6
+  200.0  12540  -48.5  -50.0     84   0.20                355.8  356.7  355.9
+  175.0  13401  -56.1                                     357.1         357.1
+  150.0  14360  -64.1                                     359.5         359.5
+  125.0  15454  -72.1                                     364.2         364.2
+  100.0  16740  -80.5                                     371.9         371.9
+   94.0  17087  -82.1                                     375.4         375.4
+   80.0  17993  -80.5                                     396.4         396.4
+   70.0  18750  -78.1                                     417.0         417.0
+   60.0  19637  -74.5                                     443.8         443.8
+   50.0  20710  -69.1                                     480.2         480.2
+   40.0  22061  -64.5                                     523.4         523.4
+   30.0  23840  -60.5                                     579.1         579.1
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020202/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: -0.14
+                               Lifted index: 2.25
+    LIFT computed using virtual temperature: 2.21
+                                    K index: 33.90
+                         Cross totals index: 20.50
+                      Vertical totals index: 22.50
+                        Totals totals index: 43.00
+      Convective Available Potential Energy: 418.22
+             CAPE using virtual temperature: 447.65
+                      Convective Inhibition: -7.54
+             CINS using virtual temperature: -6.71
+                           Equilibrum Level: 750.38
+ Equilibrum Level using virtual temperature: 750.26
+                   Level of Free Convection: 798.04
+             LFCT using virtual temperature: 798.30
+  Temp [K] of the Lifted Condensation Level: 286.47
+Pres [hPa] of the Lifted Condensation Level: 803.82
+   Equivalent potential temp [K] of the LCL: 341.31
+     Mean mixed layer potential temperature: 304.94
+              Mean mixed layer mixing ratio: 12.40
+Precipitable water [mm] for entire sounding: 24.77
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 03 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  857.0   1472   19.0   16.0     83  13.53     90      4  305.3  346.0  307.8
+  852.0   1518   19.0   16.0     83  13.61                305.8  346.9  308.3
+  850.0   1537   18.4   15.4     83  13.11                305.4  344.9  307.8
+  800.0   2057   15.0   11.5     80  10.76                307.1  339.9  309.1
+  750.0   2603   11.4    7.4     76   8.68                308.9  335.7  310.5
+  700.0   3179    8.0    3.5     73   7.08                311.3  333.5  312.6
+  650.0   3788    5.0    0.0     70   5.92                314.6  333.5  315.7
+  550.0   5135   -2.1   -4.1     86   5.16                321.5  338.6  322.5
+  530.0   5429   -2.1  -17.1     31   1.90                325.0  331.7  325.3
+  500.0   5890   -4.5  -14.5     46   2.50                327.5  336.3  328.0
+  494.0   5985   -5.5  -11.5     63   3.23                327.4  338.6  328.0
+  450.0   6714   -8.1  -40.1      6   0.26                333.0  334.0  333.0
+  400.0   7620  -14.1  -19.1     66   2.12                336.6  344.3  337.0
+  370.0   8207  -16.5  -42.5      9   0.25                341.0  342.0  341.0
+  350.0   8620  -20.1  -40.1     15   0.33                341.6  342.9  341.6
+  300.0   9740  -28.5  -43.5     22   0.27                345.1  346.2  345.1
+  250.0  11020  -38.1  -61.1      7   0.04                349.3  349.5  349.3
+  234.0  11469  -41.5  -61.5     10   0.04                350.8  351.0  350.8
+  200.0  12510  -49.5  -58.5     34   0.07                354.2  354.6  354.2
+  175.0  13369  -56.1                                     357.1         357.1
+  150.0  14330  -63.1                                     361.2         361.2
+  100.0  16710  -80.5                                     371.9         371.9
+   90.0  17299  -84.5                                     375.4         375.4
+   80.0  17957  -80.1                                     397.3         397.3
+   70.0  18720  -76.5                                     420.4         420.4
+   60.0  19608  -76.5                                     439.3         439.3
+   50.0  20670  -72.1                                     473.2         473.2
+   40.0  22005  -66.1                                     519.4         519.4
+   30.0  23780  -59.1                                     582.9         582.9
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020203/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 0.45
+                               Lifted index: 1.14
+    LIFT computed using virtual temperature: 0.73
+                                    K index: 33.80
+                         Cross totals index: 19.90
+                      Vertical totals index: 22.90
+                        Totals totals index: 42.80
+      Convective Available Potential Energy: 47.81
+             CAPE using virtual temperature: 85.41
+                      Convective Inhibition: -17.46
+             CINS using virtual temperature: -9.77
+                           Equilibrum Level: 541.52
+ Equilibrum Level using virtual temperature: 535.13
+                   Level of Free Convection: 734.75
+             LFCT using virtual temperature: 758.19
+  Temp [K] of the Lifted Condensation Level: 286.49
+Pres [hPa] of the Lifted Condensation Level: 793.88
+   Equivalent potential temp [K] of the LCL: 343.09
+     Mean mixed layer potential temperature: 306.05
+              Mean mixed layer mixing ratio: 12.32
+Precipitable water [mm] for entire sounding: 28.64
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 04 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  854.0   1472   17.0   14.5     85  12.30     90      4  303.5  340.3  305.8
+  800.0   2027   14.4    9.4     72   9.34                306.5  334.9  308.2
+  771.0   2338   13.4    6.4     63   7.88                308.6  333.0  310.1
+  760.0   2459   14.0    4.0     51   6.75                310.6  331.7  311.8
+  750.0   2570   13.4    3.4     51   6.56                311.1  331.7  312.3
+  650.0   3759    7.4   -4.6     42   4.20                317.3  331.1  318.1
+  550.0   5112   -0.5   -9.5     51   3.40                323.4  335.0  324.1
+  470.0   6350   -7.5  -10.0     82   3.83                329.6  342.8  330.4
+  450.0   6687   -8.5  -16.5     52   2.35                332.5  340.9  332.9
+  419.0   7237  -10.5  -43.5      5   0.19                336.8  337.6  336.8
+  350.0   8597  -18.5  -49.5      5   0.12                343.7  344.2  343.8
+  210.0  12187  -46.5  -53.5     45   0.13                354.0  354.6  354.0
+  180.0  13192  -53.5                                     358.5         358.5
+  175.0  13372  -55.1                                     358.8         358.8
+  125.0  15434  -71.5                                     365.3         365.3
+   80.0  18000  -81.1                                     395.2         395.2
+   70.0  18760  -75.5                                     422.5         422.5
+   60.0  19657  -73.1                                     446.9         446.9
+   40.0  22067  -67.1                                     516.9         516.9
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020204/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 2.20
+                               Lifted index: 3.15
+    LIFT computed using virtual temperature: 3.07
+                                    K index: 24.73
+                         Cross totals index: 18.88
+                      Vertical totals index: 21.56
+                        Totals totals index: 40.44
+      Convective Available Potential Energy: 0.00
+             CAPE using virtual temperature: 0.00
+                      Convective Inhibition: 0.00
+             CINS using virtual temperature: 0.00
+  Temp [K] of the Lifted Condensation Level: 284.52
+Pres [hPa] of the Lifted Condensation Level: 785.68
+   Equivalent potential temp [K] of the LCL: 337.57
+     Mean mixed layer potential temperature: 304.86
+              Mean mixed layer mixing ratio: 10.95
+Precipitable water [mm] for entire sounding: 23.63
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 21Z 06 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  853.0   1472   26.0   23.0     84  21.26                313.1  379.3  317.0
+  800.0   2033   19.0   15.0     78  13.59                311.4  353.3  313.9
+  750.0   2586   16.4   10.4     68  10.67                314.4  347.8  316.4
+  690.0   3289   10.0    2.0     58   6.45                314.8  335.4  316.0
+  650.0   3782    6.0    0.0     65   5.92                315.7  334.8  316.8
+  609.0   4313    2.0    1.0     93   6.80                317.0  338.9  318.3
+  588.0   4597    4.0   -9.0     38   3.31                322.6  333.8  323.2
+  550.0   5139    3.0  -33.0      5   0.43                327.6  329.3  327.7
+  520.0   5589   -1.1  -17.1     29   1.94                327.9  334.8  328.3
+  450.0   6726   -8.5  -30.5     15   0.68                332.5  335.1  332.6
+  350.0   8626  -21.5  -37.5     22   0.44                339.7  341.4  339.8
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020206/2100
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: -8.20
+                               Lifted index: -5.24
+    LIFT computed using virtual temperature: -6.49
+                                    K index: 43.63
+                         Cross totals index: 25.67
+                      Vertical totals index: 28.72
+                        Totals totals index: 54.39
+      Convective Available Potential Energy: 1243.46
+             CAPE using virtual temperature: 1511.36
+                      Convective Inhibition: 0.00
+             CINS using virtual temperature: 0.00
+                   Level of Free Convection: 788.25
+             LFCT using virtual temperature: 788.25
+  Temp [K] of the Lifted Condensation Level: 291.77
+Pres [hPa] of the Lifted Condensation Level: 788.25
+   Equivalent potential temp [K] of the LCL: 366.31
+     Mean mixed layer potential temperature: 312.31
+              Mean mixed layer mixing ratio: 17.77
+Precipitable water [mm] for entire sounding: 29.69
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 08 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  856.0   1472   20.0   18.5     91  15.92                306.5  354.6  309.4
+  800.0   2053   16.0   11.0     72  10.41                308.2  340.0  310.1
+  760.0   2488   13.0    9.5     79   9.90                309.5  340.0  311.3
+  750.0   2599   13.0    8.0     72   9.05                310.7  338.8  312.4
+  730.0   2827   13.0    9.5     79  10.31                313.1  345.3  315.0
+  650.0   3794    7.0   -2.0     53   5.11                316.8  333.5  317.8
+  640.0   3921    6.0    2.5     78   7.21                317.1  340.2  318.5
+  560.0   5001   -1.5   -6.0     71   4.39                320.6  335.2  321.4
+  550.0   5145   -2.1  -17.1     31   1.83                321.5  327.9  321.9
+  520.0   5588   -4.5  -29.5     12   0.64                323.8  326.2  324.0
+  510.0   5741   -3.5  -22.5     21   1.24                326.9  331.4  327.1
+  450.0   6719   -9.5  -17.5     52   2.16                331.2  339.0  331.6
+  390.0   7811  -15.5  -41.5      9   0.26                337.2  338.2  337.2
+  180.0  13145  -59.5                                     348.7         348.7
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020208/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: -2.34
+                               Lifted index: -0.48
+    LIFT computed using virtual temperature: -1.19
+                                    K index: 36.27
+                         Cross totals index: 22.17
+                      Vertical totals index: 24.03
+                        Totals totals index: 46.20
+      Convective Available Potential Energy: 143.89
+             CAPE using virtual temperature: 256.70
+                      Convective Inhibition: -50.10
+             CINS using virtual temperature: -4.31
+                           Equilibrum Level: 397.72
+ Equilibrum Level using virtual temperature: 332.91
+                   Level of Free Convection: 647.39
+             LFCT using virtual temperature: 772.47
+  Temp [K] of the Lifted Condensation Level: 287.73
+Pres [hPa] of the Lifted Condensation Level: 795.38
+   Equivalent potential temp [K] of the LCL: 347.47
+     Mean mixed layer potential temperature: 307.21
+              Mean mixed layer mixing ratio: 13.49
+Precipitable water [mm] for entire sounding: 28.82
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 21Z 08 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  856.0   1472   18.0   16.5     91  13.99                304.4  346.3  306.9
+  813.0   1911   14.4   13.9     97  12.43                305.1  342.5  307.4
+  800.0   2047   15.4   13.4     88  12.22                307.6  344.7  309.8
+  750.0   2592   12.4   10.9     91  11.04                310.0  344.0  312.1
+  650.0   3779    6.0    4.0     87   7.90                315.7  340.8  317.2
+  550.0   5125   -2.5   -3.0     96   5.61                321.1  339.5  322.1
+  540.0   5270   -3.5   -4.0     96   5.30                321.6  339.1  322.6
+  460.0   6526   -7.5  -32.5     12   0.55                331.6  333.8  331.8
+  450.0   6696   -9.1  -28.1     20   0.85                331.7  334.9  331.9
+  388.0   7821  -17.5  -21.0     74   1.86                335.1  341.9  335.4
+  350.0   8585  -22.1  -26.6     67   1.25                338.9  343.6  339.1
+  175.0  13293  -59.1                                     352.2         352.2
+  125.0  15320  -74.5                                     359.8         359.8
+   80.0  17876  -79.5                                     398.5         398.5
+   70.0  18640  -75.1                                     423.4         423.4
+   60.0  19545  -70.1                                     453.6         453.6
+   40.0  21994  -63.5                                     525.9         525.9
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020208/2100
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: -0.79
+                               Lifted index: -0.17
+    LIFT computed using virtual temperature: -0.70
+                                    K index: 37.33
+                         Cross totals index: 21.57
+                      Vertical totals index: 22.93
+                        Totals totals index: 44.49
+      Convective Available Potential Energy: 62.37
+             CAPE using virtual temperature: 83.61
+                      Convective Inhibition: 0.00
+             CINS using virtual temperature: 0.00
+                           Equilibrum Level: 387.98
+ Equilibrum Level using virtual temperature: 383.52
+                   Level of Free Convection: 815.68
+             LFCT using virtual temperature: 817.53
+  Temp [K] of the Lifted Condensation Level: 287.95
+Pres [hPa] of the Lifted Condensation Level: 819.47
+   Equivalent potential temp [K] of the LCL: 344.10
+     Mean mixed layer potential temperature: 304.83
+              Mean mixed layer mixing ratio: 13.11
+Precipitable water [mm] for entire sounding: 34.37
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 11 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  853.0   1472   20.0   17.5     86  14.98                306.8  352.1  309.5
+  800.0   2023   16.0   12.0     77  11.13                308.2  342.2  310.2
+  770.0   2347   13.4   12.4     94  11.89                308.8  345.1  311.0
+  750.0   2568   12.0   11.0     94  11.11                309.6  343.7  311.6
+  650.0   3753    5.0   -1.0     65   5.50                314.6  332.2  315.6
+  630.0   4008    4.0    3.5     97   7.87                316.3  341.3  317.8
+  620.0   4139    6.0  -11.0     28   2.68                320.0  329.1  320.5
+  560.0   4965    2.0  -29.0      8   0.63                324.7  327.1  324.9
+  550.0   5109    1.0  -35.0      5   0.36                325.2  326.6  325.3
+  480.0   6189   -5.5  -17.5     38   2.03                330.1  337.4  330.5
+  450.0   6691   -9.1  -20.1     41   1.73                331.7  338.0  332.1
+  390.0   7781  -17.1  -23.1     60   1.54                335.1  340.8  335.4
+  350.0   8585  -21.5  -51.5      5   0.10                339.7  340.1  339.7
+  175.0  13312  -58.5                                     353.2         353.2
+  125.0  15356  -72.5                                     363.5         363.5
+   80.0  17923  -80.5                                     396.4         396.4
+   70.0  18690  -73.1                                     427.7         427.7
+   60.0  19604  -68.1                                     458.1         458.1
+   40.0  22071  -62.5                                     528.4         528.4
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020211/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: -1.00
+                               Lifted index: 0.54
+    LIFT computed using virtual temperature: -0.19
+                                    K index: 37.12
+                         Cross totals index: 20.75
+                      Vertical totals index: 23.33
+                        Totals totals index: 44.08
+      Convective Available Potential Energy: 119.06
+             CAPE using virtual temperature: 185.71
+                      Convective Inhibition: -7.90
+             CINS using virtual temperature: -4.62
+                           Equilibrum Level: 326.15
+ Equilibrum Level using virtual temperature: 329.47
+                   Level of Free Convection: 764.63
+             LFCT using virtual temperature: 770.41
+  Temp [K] of the Lifted Condensation Level: 287.42
+Pres [hPa] of the Lifted Condensation Level: 790.50
+   Equivalent potential temp [K] of the LCL: 347.15
+     Mean mixed layer potential temperature: 307.42
+              Mean mixed layer mixing ratio: 13.21
+Precipitable water [mm] for entire sounding: 27.12
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 12 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  853.0   1472   18.4   15.1     81  12.81                305.1  343.6  307.4
+  840.0   1604   21.0   14.0     64  12.10                309.2  346.3  311.4
+  750.0   2570   16.0    2.0     39   5.93                313.9  332.9  315.1
+  725.0   2854   14.0   -3.0     31   4.25                314.8  328.6  315.6
+  700.0   3147   12.0   -2.0     38   4.74                315.7  331.2  316.6
+  650.0   3759    6.0   -4.0     49   4.40                315.7  330.1  316.6
+  610.0   4274    1.4   -5.6     60   4.15                316.2  329.8  317.0
+  580.0   4682    5.0  -26.0      8   0.80                325.0  327.9  325.1
+  550.0   5111    2.0  -26.0     10   0.84                326.4  329.5  326.6
+  500.0   5880    4.0  -22.0     13   1.32                337.9  342.8  338.1
+  485.0   6123   -5.5  -31.5     11   0.57                329.1  331.3  329.2
+  450.0   6704  -10.1  -30.1     18   0.70                330.5  333.1  330.6
+  405.0   7506  -15.5  -29.5     29   0.82                333.6  336.7  333.7
+  400.0   7600  -16.1  -31.1     26   0.72                334.0  336.7  334.1
+  350.0   8593  -22.1  -49.1      7   0.13                338.9  339.4  338.9
+  345.0   8698  -22.5  -52.5      5   0.09                339.7  340.1  339.7
+  300.0   9710  -29.1  -57.1      5   0.06                344.2  344.5  344.3
+  250.0  10980  -39.1  -65.1      5   0.02                347.8  347.9  347.8
+  200.0  12470  -52.1  -75.1      5   0.01                350.1  350.1  350.1
+  175.0  13321  -60.1                                     350.6         350.6
+  150.0  14270  -67.1                                     354.3         354.3
+  125.0  15349  -74.1                                     360.6         360.6
+  100.0  16630  -79.5                                     373.9         373.9
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020212/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 9.20
+                               Lifted index: 9.57
+    LIFT computed using virtual temperature: 8.97
+                                    K index: 15.84
+                         Cross totals index: 10.85
+                      Vertical totals index: 15.00
+                        Totals totals index: 25.84
+      Convective Available Potential Energy: 15.12
+             CAPE using virtual temperature: 34.91
+                      Convective Inhibition: -181.03
+             CINS using virtual temperature: -131.39
+                           Equilibrum Level: 601.40
+ Equilibrum Level using virtual temperature: 397.23
+                   Level of Free Convection: 641.94
+             LFCT using virtual temperature: 655.87
+  Temp [K] of the Lifted Condensation Level: 283.93
+Pres [hPa] of the Lifted Condensation Level: 741.45
+   Equivalent potential temp [K] of the LCL: 343.24
+     Mean mixed layer potential temperature: 309.29
+              Mean mixed layer mixing ratio: 11.17
+Precipitable water [mm] for entire sounding: 19.04
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 14 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  854.0   1472   19.0   14.0     73  11.90                305.6  341.6  307.8
+  800.0   2029   15.4   10.4     72   9.99                307.6  338.1  309.4
+  790.0   2135   15.0   10.0     72   9.85                308.2  338.4  310.1
+  750.0   2573   13.4    7.4     67   8.68                311.1  338.1  312.7
+  671.0   3498    7.4    2.4     71   6.83                314.4  336.1  315.7
+  650.0   3759    7.4   -4.6     42   4.20                317.3  331.1  318.1
+  620.0   4147    7.4  -30.6      5   0.49                321.6  323.4  321.7
+  550.0   5115    0.4  -26.6     11   0.79                324.5  327.4  324.7
+  450.0   6692   -8.1  -37.1      8   0.35                333.0  334.4  333.1
+  350.0   8592  -20.1  -34.1     28   0.61                341.6  344.0  341.7
+  175.0  13316  -59.1                                     352.2         352.2
+   80.0  17941  -82.1                                     393.1         393.1
+   70.0  18690  -79.5                                     414.0         414.0
+   60.0  19580  -72.5                                     448.3         448.3
+   50.0  20665  -67.1                                     484.9         484.9
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020214/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 2.73
+                               Lifted index: 3.32
+    LIFT computed using virtual temperature: 2.67
+                                    K index: 30.74
+                         Cross totals index: 17.38
+                      Vertical totals index: 22.38
+                        Totals totals index: 39.76
+      Convective Available Potential Energy: 0.00
+             CAPE using virtual temperature: 0.00
+                      Convective Inhibition: 0.00
+             CINS using virtual temperature: 0.00
+  Temp [K] of the Lifted Condensation Level: 284.40
+Pres [hPa] of the Lifted Condensation Level: 769.94
+   Equivalent potential temp [K] of the LCL: 339.81
+     Mean mixed layer potential temperature: 306.49
+              Mean mixed layer mixing ratio: 11.04
+Precipitable water [mm] for entire sounding: 20.50
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 15 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  854.0   1472   19.4   16.4     83  13.93      0      2  306.0  348.1  308.6
+  800.0   2032   16.0   14.5     91  13.15                308.2  348.2  310.6
+  750.0   2579   12.4   11.9     97  11.81                310.0  346.3  312.2
+  650.0   3766    5.4    2.9     84   7.31                315.0  338.3  316.4
+  640.0   3894    9.0  -12.0     21   2.39                320.5  328.7  321.0
+  550.0   5123   -1.1  -27.1     12   0.76                322.7  325.5  322.9
+  450.0   6696   -9.5  -42.5      5   0.20                331.2  332.0  331.3
+  350.0   8592  -21.1  -51.1      5   0.10                340.2  340.6  340.2
+  175.0  13317  -59.1                                     352.2         352.2
+  125.0  15350  -74.1                                     360.6         360.6
+   80.0  17909  -80.1                                     397.3         397.3
+   70.0  18680  -71.5                                     431.1         431.1
+   60.0  19598  -68.1                                     458.1         458.1
+   40.0  22079  -60.1                                     534.4         534.4
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020215/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: -1.34
+                               Lifted index: -1.33
+    LIFT computed using virtual temperature: -2.21
+                                    K index: 39.04
+                         Cross totals index: 21.35
+                      Vertical totals index: 24.25
+                        Totals totals index: 45.60
+      Convective Available Potential Energy: 182.52
+             CAPE using virtual temperature: 310.17
+                      Convective Inhibition: -10.44
+             CINS using virtual temperature: -9.13
+                           Equilibrum Level: 291.66
+ Equilibrum Level using virtual temperature: 318.12
+                   Level of Free Convection: 756.04
+             LFCT using virtual temperature: 759.48
+  Temp [K] of the Lifted Condensation Level: 288.16
+Pres [hPa] of the Lifted Condensation Level: 801.49
+   Equivalent potential temp [K] of the LCL: 348.06
+     Mean mixed layer potential temperature: 307.00
+              Mean mixed layer mixing ratio: 13.58
+Precipitable water [mm] for entire sounding: 26.15
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 21Z 16 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  854.0   1472   20.0   16.5     80  14.02     30      2  306.7  349.1  309.2
+  830.0   1719   21.4   13.4     60  11.77                310.7  347.0  312.9
+  800.0   2037   19.0   13.0     68  11.90                311.4  348.2  313.6
+  750.0   2587   14.0   10.5     79  10.74                311.8  345.1  313.8
+  730.0   2815   12.0   11.0     94  11.42                312.0  347.4  314.1
+  650.0   3778    6.0    4.5     90   8.19                315.7  341.7  317.3
+  642.0   3879    5.0    3.0     87   7.45                315.7  339.4  317.1
+  615.0   4229    4.0   -7.0     45   3.70                318.4  330.7  319.2
+  550.0   5127   -1.1  -25.1     14   0.91                322.7  326.1  322.9
+  480.0   6198   -7.5  -30.5     14   0.63                327.6  330.0  327.8
+  450.0   6695  -11.5  -22.5     40   1.40                328.7  333.8  329.0
+  435.0   6955  -11.5  -36.5     11   0.39                331.9  333.4  332.0
+  350.0   8591  -20.1  -50.1      5   0.11                341.6  342.1  341.6
+  175.0  13334  -58.1                                     353.9         353.9
+  125.0  15371  -74.1                                     360.6         360.6
+   80.0  17913  -82.5                                     392.3         392.3
+   70.0  18670  -76.1                                     421.3         421.3
+   60.0  19568  -72.1                                     449.2         449.2
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020216/2100
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: -2.04
+                               Lifted index: -1.66
+    LIFT computed using virtual temperature: -2.48
+                                    K index: 40.62
+                         Cross totals index: 21.57
+                      Vertical totals index: 25.81
+                        Totals totals index: 47.38
+      Convective Available Potential Energy: 205.05
+             CAPE using virtual temperature: 320.17
+                      Convective Inhibition: -46.08
+             CINS using virtual temperature: -40.45
+                           Equilibrum Level: 382.54
+ Equilibrum Level using virtual temperature: 374.66
+                   Level of Free Convection: 698.63
+             LFCT using virtual temperature: 703.88
+  Temp [K] of the Lifted Condensation Level: 285.76
+Pres [hPa] of the Lifted Condensation Level: 753.94
+   Equivalent potential temp [K] of the LCL: 347.58
+     Mean mixed layer potential temperature: 309.80
+              Mean mixed layer mixing ratio: 12.36
+Precipitable water [mm] for entire sounding: 27.73
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 21Z 17 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  855.0   1472   21.0   14.0     64  11.89                307.6  343.8  309.8
+  800.0   2045   17.4   13.4     77  12.22                309.7  347.2  311.9
+  750.0   2593   14.0   -8.0     21   2.80                311.8  321.0  312.3
+  650.0   3784    7.0   -1.0     57   5.50                316.8  334.7  317.9
+  572.0   4822    0.0  -16.0     29   1.93                320.4  327.1  320.8
+  552.0   5106   -1.5  -18.5     26   1.62                321.9  327.6  322.2
+  500.0   5888   -5.1  -23.1     23   1.20                326.8  331.1  327.0
+  460.0   6538   -9.1  -11.1     85   3.58                329.6  342.1  330.4
+  450.0   6708  -10.1  -12.1     85   3.38                330.5  342.2  331.1
+  360.0   8394  -20.5  -24.0     74   1.54                338.3  344.0  338.6
+  350.0   8602  -22.1  -27.1     64   1.19                338.9  343.4  339.1
+  230.0  11557  -43.5  -57.5     20   0.07                349.5  349.8  349.5
+  175.0  13334  -58.5                                     353.2         353.2
+  125.0  15359  -76.5                                     356.2         356.2
+  110.0  16083  -83.1                                     357.1         357.1
+   70.0  18680  -70.5                                     433.2         433.2
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020217/2100
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 0.15
+                               Lifted index: -0.28
+    LIFT computed using virtual temperature: -0.95
+                                    K index: 24.48
+                         Cross totals index: 19.05
+                      Vertical totals index: 25.78
+                        Totals totals index: 44.83
+      Convective Available Potential Energy: 61.21
+             CAPE using virtual temperature: 129.74
+                      Convective Inhibition: -106.47
+             CINS using virtual temperature: -38.55
+                           Equilibrum Level: 386.26
+ Equilibrum Level using virtual temperature: 392.55
+                   Level of Free Convection: 615.29
+             LFCT using virtual temperature: 643.28
+  Temp [K] of the Lifted Condensation Level: 285.59
+Pres [hPa] of the Lifted Condensation Level: 763.45
+   Equivalent potential temp [K] of the LCL: 345.17
+     Mean mixed layer potential temperature: 308.52
+              Mean mixed layer mixing ratio: 12.03
+Precipitable water [mm] for entire sounding: 23.39
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 21Z 18 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  856.0   1472   18.4   16.9     91  14.36      0      0  304.8  347.9  307.4
+  800.0   2047   14.0   11.5     85  10.76                306.1  338.7  308.0
+  790.0   2153   15.0    9.0     67   9.20                308.2  336.5  309.9
+  750.0   2589   12.0    7.0     71   8.45                309.6  335.7  311.1
+  650.0   3769    5.4    1.4     75   6.56                315.0  336.0  316.3
+  570.0   4827   -0.5   -5.0     72   4.65                320.1  335.5  321.1
+  550.0   5111   -2.1   -4.1     86   5.16                321.5  338.6  322.5
+  540.0   5256   -2.5   -3.5     93   5.50                322.8  341.0  323.8
+  490.0   6020   -5.5  -13.5     53   2.77                328.2  337.9  328.7
+  450.0   6680   -9.5  -11.8     83   3.46                331.2  343.3  331.9
+  440.0   6853  -10.5  -11.0     96   3.78                332.1  345.3  332.8
+  370.0   8164  -17.1  -25.1     50   1.35                340.2  345.3  340.4
+  350.0   8577  -20.1  -29.1     45   0.99                341.6  345.4  341.8
+  175.0  13301  -58.5                                     353.2         353.2
+  125.0  15326  -74.5                                     359.8         359.8
+   70.0  18660  -77.1                                     419.1         419.1
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020218/2100
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: -0.64
+                               Lifted index: 0.61
+    LIFT computed using virtual temperature: 0.31
+                                    K index: 34.64
+                         Cross totals index: 21.21
+                      Vertical totals index: 22.82
+                        Totals totals index: 44.03
+      Convective Available Potential Energy: 35.20
+             CAPE using virtual temperature: 64.56
+                      Convective Inhibition: -32.65
+             CINS using virtual temperature: -0.88
+                           Equilibrum Level: 522.87
+ Equilibrum Level using virtual temperature: 515.64
+                   Level of Free Convection: 679.56
+             LFCT using virtual temperature: 800.90
+  Temp [K] of the Lifted Condensation Level: 287.25
+Pres [hPa] of the Lifted Condensation Level: 807.82
+   Equivalent potential temp [K] of the LCL: 343.48
+     Mean mixed layer potential temperature: 305.34
+              Mean mixed layer mixing ratio: 12.77
+Precipitable water [mm] for entire sounding: 31.38
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 21Z 20 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  860.0   1472   19.0   14.5     75  12.21      0      0  305.0  341.8  307.2
+  750.0   2621    9.0    6.5     84   8.16                306.3  331.3  307.8
+  740.0   2728   -9.5  -10.0     96   2.43                287.3  294.6  287.8
+  680.0   3395    5.0    4.0     93   7.55                310.6  334.1  312.0
+  650.0   3764    9.0  -20.0     11   1.21                319.1  323.4  319.3
+  560.0   4979    4.4   -0.1     73   6.83                327.6  350.4  328.9
+  550.0   5123   -0.5   -7.5     59   3.98                323.4  336.9  324.2
+  450.0   6690   -9.5  -14.5     67   2.78                331.2  341.0  331.8
+  380.0   7970  -16.5  -29.5     32   0.88                338.4  341.8  338.6
+  350.0   8578  -21.1  -35.1     27   0.56                340.2  342.4  340.3
+  175.0  13303  -56.1                                     357.1         357.1
+  100.0  16626  -81.5                                     370.0         370.0
+   95.0  16913  -80.1                                     378.2         378.2
+   80.0  17876  -80.5                                     396.4         396.4
+   70.0  18630  -77.1                                     419.1         419.1
+   60.0  19517  -76.1                                     440.2         440.2
+   40.0  21933  -63.1                                     526.9         526.9
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020220/2100
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 1.81
+                               Lifted index: 2.48
+    LIFT computed using virtual temperature: 2.31
+                                    K index: 35.91
+                         Cross totals index: 18.59
+                      Vertical totals index: 22.92
+                        Totals totals index: 41.51
+      Convective Available Potential Energy: 287.55
+             CAPE using virtual temperature: 316.13
+                      Convective Inhibition: -5.19
+             CINS using virtual temperature: -2.04
+                           Equilibrum Level: 674.26
+ Equilibrum Level using virtual temperature: 671.89
+                   Level of Free Convection: 772.63
+             LFCT using virtual temperature: 779.08
+  Temp [K] of the Lifted Condensation Level: 284.98
+Pres [hPa] of the Lifted Condensation Level: 785.87
+   Equivalent potential temp [K] of the LCL: 339.10
+     Mean mixed layer potential temperature: 305.32
+              Mean mixed layer mixing ratio: 11.25
+Precipitable water [mm] for entire sounding: 25.57
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 21 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  857.0   1472   17.0   15.0     88  12.67     30      3  303.2  341.0  305.5
+  850.0   1544   17.0   15.0     88  12.77                303.9  342.2  306.3
+  800.0   2059   14.0   11.0     82  10.41                306.1  337.6  308.0
+  750.0   2601   11.0    7.0     76   8.45                308.5  334.5  310.1
+  700.0   3175    9.0    3.0     66   6.83                312.4  334.0  313.7
+  670.0   3539   10.0  -28.0      5   0.57                317.5  319.6  317.6
+  650.0   3791    8.0  -13.0     21   2.17                318.0  325.4  318.4
+  630.0   4048    6.4   -7.6     36   3.44                319.0  330.5  319.7
+  550.0   5152    0.0  -21.0     19   1.31                324.0  328.7  324.3
+  500.0   5910   -5.1  -19.1     32   1.70                326.8  332.8  327.1
+  480.0   6229   -7.1  -18.1     41   1.93                328.1  335.0  328.5
+  450.0   6731   -6.5  -29.5     14   0.74                335.0  337.9  335.1
+  440.0   6906   -6.5  -40.5      5   0.26                337.1  338.2  337.2
+  400.0   7640  -12.1  -44.1      5   0.19                339.2  340.0  339.2
+  350.0   8647  -19.5  -51.5      4   0.10                342.4  342.8  342.4
+  300.0   9770  -29.1  -57.1      5   0.06                344.2  344.5  344.3
+  250.0  11050  -39.1  -65.1      5   0.02                347.8  347.9  347.8
+  200.0  12530  -51.5  -69.5     10   0.02                351.1  351.1  351.1
+  175.0  13388  -58.1                                     353.9         353.9
+  150.0  14350  -64.1                                     359.5         359.5
+  125.0  15440  -72.1                                     364.2         364.2
+  100.0  16720  -80.5                                     371.9         371.9
+   80.0  17979  -81.5                                     394.4         394.4
+   74.0  18417  -82.1                                     402.0         402.0
+   70.0  18730  -80.1                                     412.7         412.7
+   60.0  19615  -73.5                                     446.0         446.0
+   50.0  20700  -66.1                                     487.3         487.3
+   40.0  22065  -62.5                                     528.4         528.4
+   30.0  23860  -57.5                                     587.3         587.3
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020221/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 0.91
+                               Lifted index: 1.67
+    LIFT computed using virtual temperature: 1.20
+                                    K index: 31.10
+                         Cross totals index: 20.10
+                      Vertical totals index: 22.10
+                        Totals totals index: 42.20
+      Convective Available Potential Energy: 0.00
+             CAPE using virtual temperature: 0.00
+                      Convective Inhibition: 0.00
+             CINS using virtual temperature: 0.00
+  Temp [K] of the Lifted Condensation Level: 286.18
+Pres [hPa] of the Lifted Condensation Level: 803.77
+   Equivalent potential temp [K] of the LCL: 340.29
+     Mean mixed layer potential temperature: 304.64
+              Mean mixed layer mixing ratio: 11.91
+Precipitable water [mm] for entire sounding: 21.27
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 22 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  855.0   1472   17.0   15.0     88  12.70      0      0  303.4  341.4  305.7
+  800.0   2036   13.0   10.5     85  10.06                305.0  335.4  306.8
+  750.0   2575    9.4    7.4     87   8.68                306.8  333.3  308.4
+  720.0   2912    7.0    4.5     84   7.39                307.7  330.5  309.1
+  660.0   3628    8.0  -12.0     23   2.32                316.6  324.4  317.0
+  650.0   3754    8.0  -13.0     21   2.17                318.0  325.4  318.4
+  620.0   4143    8.0  -18.0     14   1.50                322.3  327.6  322.6
+  550.0   5115    1.0  -25.0     12   0.92                325.2  328.6  325.4
+  512.0   5685   -3.5  -29.5     11   0.65                326.5  328.9  326.6
+  480.0   6194   -2.5  -36.5      5   0.35                333.8  335.2  333.9
+  450.0   6701   -6.5  -39.5      5   0.28                335.0  336.1  335.0
+  350.0   8606  -21.1  -51.1      5   0.10                340.2  340.6  340.2
+  125.0  15424  -72.1                                     364.2         364.2
+   80.0  17991  -80.5                                     396.4         396.4
+   70.0  18730  -87.1                                     397.7         397.7
+   60.0  19593  -76.5                                     439.3         439.3
+   40.0  22016  -61.5                                     530.9         530.9
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020222/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 3.44
+                               Lifted index: 4.39
+    LIFT computed using virtual temperature: 3.77
+                                    K index: 26.22
+                         Cross totals index: 17.74
+                      Vertical totals index: 19.78
+                        Totals totals index: 37.52
+      Convective Available Potential Energy: 14.83
+             CAPE using virtual temperature: 25.61
+                      Convective Inhibition: -5.12
+             CINS using virtual temperature: -2.53
+                           Equilibrum Level: 703.41
+ Equilibrum Level using virtual temperature: 695.21
+                   Level of Free Convection: 769.31
+             LFCT using virtual temperature: 780.38
+  Temp [K] of the Lifted Condensation Level: 285.64
+Pres [hPa] of the Lifted Condensation Level: 803.30
+   Equivalent potential temp [K] of the LCL: 338.47
+     Mean mixed layer potential temperature: 304.12
+              Mean mixed layer mixing ratio: 11.52
+Precipitable water [mm] for entire sounding: 19.00
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 21Z 22 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  857.0   1472   19.4   15.4     78  13.00     20      3  305.7  345.0  308.1
+  800.0   2060   15.4   10.9     75  10.34                307.6  339.1  309.5
+  750.0   2604   12.0    8.0     77   9.05                309.6  337.5  311.3
+  650.0   3784    4.0    1.0     81   6.37                313.4  333.7  314.7
+  620.0   4168    5.4  -12.6     26   2.35                319.3  327.4  319.8
+  550.0   5136    1.0  -24.0     13   1.01                325.2  328.9  325.4
+  520.0   5583   -1.1  -29.1     10   0.67                327.9  330.5  328.1
+  450.0   6717   -8.1  -35.1      9   0.43                333.0  334.7  333.1
+  350.0   8610  -22.5  -49.5      7   0.12                338.3  338.8  338.4
+  300.0   9723  -29.1  -52.1      9   0.10                344.2  344.7  344.3
+  175.0  13328  -59.1                                     352.2         352.2
+  125.0  15362  -73.1                                     362.4         362.4
+   70.0  18720  -76.5                                     420.4         420.4
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020222/2100
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 2.22
+                               Lifted index: 2.99
+    LIFT computed using virtual temperature: 2.29
+                                    K index: 33.27
+                         Cross totals index: 17.86
+                      Vertical totals index: 21.92
+                        Totals totals index: 39.78
+      Convective Available Potential Energy: 17.99
+             CAPE using virtual temperature: 31.56
+                      Convective Inhibition: -37.41
+             CINS using virtual temperature: -25.62
+                           Equilibrum Level: 638.36
+ Equilibrum Level using virtual temperature: 631.99
+                   Level of Free Convection: 703.92
+             LFCT using virtual temperature: 717.85
+  Temp [K] of the Lifted Condensation Level: 285.67
+Pres [hPa] of the Lifted Condensation Level: 781.90
+   Equivalent potential temp [K] of the LCL: 342.20
+     Mean mixed layer potential temperature: 306.51
+              Mean mixed layer mixing ratio: 11.85
+Precipitable water [mm] for entire sounding: 23.11
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 24 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  859.0   1472   21.4   12.4     56  10.64      0      0  307.6  340.1  309.6
+  800.0   2085   17.0   10.0     63   9.73                309.2  339.2  311.1
+  760.0   2519   13.0    7.0     67   8.33                309.5  335.3  311.1
+  750.0   2631   12.4    7.4     72   8.68                310.0  336.9  311.6
+  650.0   3815    4.0    1.0     81   6.37                313.4  333.7  314.7
+  610.0   4329    1.0   -2.5     77   5.25                315.7  332.7  316.7
+  570.0   4873    0.0  -21.0     19   1.26                320.7  325.2  321.0
+  550.0   5159    1.4  -34.6      5   0.37                325.7  327.1  325.8
+  450.0   6743   -8.5  -41.5      5   0.22                332.5  333.4  332.5
+  390.0   7836  -16.1  -47.1      5   0.14                336.4  337.0  336.4
+  350.0   8639  -23.1  -34.1     36   0.61                337.5  339.9  337.6
+  330.0   9067  -26.5  -32.5     57   0.76                338.6  341.5  338.7
+  260.0  10750  -37.5  -55.5     14   0.08                346.3  346.6  346.3
+  210.0  12185  -49.5  -57.5     39   0.08                349.3  349.7  349.3
+  175.0  13353  -59.1                                     352.2         352.2
+  155.0  14104  -64.5                                     355.4         355.4
+  125.0  15396  -71.1                                     366.0         366.0
+   80.0  17980  -79.5                                     398.5         398.5
+   70.0  18740  -78.1                                     417.0         417.0
+   60.0  19633  -72.5                                     448.3         448.3
+   40.0  22079  -61.5                                     530.9         530.9
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020224/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 3.61
+                               Lifted index: 3.73
+    LIFT computed using virtual temperature: 3.04
+                                    K index: 32.06
+                         Cross totals index: 15.35
+                      Vertical totals index: 24.05
+                        Totals totals index: 39.40
+      Convective Available Potential Energy: 15.36
+             CAPE using virtual temperature: 30.19
+                      Convective Inhibition: -59.87
+             CINS using virtual temperature: -45.70
+                           Equilibrum Level: 593.35
+ Equilibrum Level using virtual temperature: 578.95
+                   Level of Free Convection: 665.78
+             LFCT using virtual temperature: 675.88
+  Temp [K] of the Lifted Condensation Level: 282.73
+Pres [hPa] of the Lifted Condensation Level: 738.97
+   Equivalent potential temp [K] of the LCL: 339.61
+     Mean mixed layer potential temperature: 308.29
+              Mean mixed layer mixing ratio: 10.26
+Precipitable water [mm] for entire sounding: 23.27
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 00Z 25 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  857.0   1472   21.0   12.0     56  10.38    110      6  307.4  339.1  309.3
+  800.0   2062   15.4    7.4     59   8.14                307.6  332.6  309.1
+  750.0   2607   12.0    6.0     67   7.88                309.6  334.0  311.1
+  720.0   2948   11.0    2.0     54   6.18                312.1  331.7  313.3
+  650.0   3785    0.0   -7.0     59   3.50                308.9  320.1  309.6
+  640.0   3910    3.4   -2.6     65   4.96                314.2  330.1  315.1
+  625.0   4103    6.0  -31.0      5   0.46                319.3  321.0  319.4
+  550.0   5136   -0.5  -35.5      5   0.34                323.4  324.8  323.5
+  450.0   6708  -10.5  -43.5      5   0.18                330.0  330.7  330.0
+  350.0   8583  -26.1  -55.1      5   0.06                333.5  333.7  333.5
+  175.0  13220  -63.1                                     345.6         345.6
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020225/0000
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 2.37
+                               Lifted index: 3.28
+    LIFT computed using virtual temperature: 2.68
+                                    K index: 28.58
+                         Cross totals index: 16.70
+                      Vertical totals index: 25.58
+                        Totals totals index: 42.28
+      Convective Available Potential Energy: 27.88
+             CAPE using virtual temperature: 40.18
+                      Convective Inhibition: -81.16
+             CINS using virtual temperature: -64.44
+                           Equilibrum Level: 642.06
+ Equilibrum Level using virtual temperature: 641.06
+                   Level of Free Convection: 682.56
+             LFCT using virtual temperature: 688.24
+  Temp [K] of the Lifted Condensation Level: 281.29
+Pres [hPa] of the Lifted Condensation Level: 732.61
+   Equivalent potential temp [K] of the LCL: 336.07
+     Mean mixed layer potential temperature: 307.47
+              Mean mixed layer mixing ratio: 9.42
+Precipitable water [mm] for entire sounding: 16.61
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 21Z 25 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  855.0   1472   19.4   15.4     78  13.04     40      3  305.9  345.3  308.3
+  800.0   2041   16.4   11.4     72  10.69                308.6  341.4  310.6
+  750.0   2588   14.0    7.0     63   8.45                311.8  338.1  313.3
+  665.0   3587    6.4   -1.6     57   5.14                314.1  330.6  315.1
+  650.0   3774    7.4   -0.6     57   5.67                317.3  335.7  318.4
+  638.0   3928    8.4  -22.6      9   0.98                320.1  323.7  320.3
+  550.0   5137    3.0  -33.0      5   0.43                327.6  329.3  327.7
+  450.0   6717  -10.1  -43.1      5   0.19                330.5  331.2  330.5
+  350.0   8589  -26.1  -55.1      5   0.06                333.5  333.7  333.5
+  340.0   8798  -27.5  -56.5      5   0.05                334.3  334.6  334.3
+  290.0   9917  -37.1  -51.1     22   0.12                336.2  336.7  336.2
+  242.0  11136  -47.5  -71.5      5   0.01                338.4  338.5  338.4
+  175.0  13194  -64.1                                     344.0         344.0
+  125.0  15197  -74.5                                     359.8         359.8
+   80.0  17776  -76.1                                     405.5         405.5
+   70.0  18550  -73.1                                     427.7         427.7
+   60.0  19462  -69.1                                     455.9         455.9
+   40.0  21919  -63.1                                     526.9         526.9
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020225/2100
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 1.72
+                               Lifted index: 2.31
+    LIFT computed using virtual temperature: 1.54
+                                    K index: 29.83
+                         Cross totals index: 18.27
+                      Vertical totals index: 22.36
+                        Totals totals index: 40.63
+      Convective Available Potential Energy: 479.40
+             CAPE using virtual temperature: 525.36
+                      Convective Inhibition: -92.64
+             CINS using virtual temperature: -68.37
+                           Equilibrum Level: 185.87
+ Equilibrum Level using virtual temperature: 184.45
+                   Level of Free Convection: 669.27
+             LFCT using virtual temperature: 687.14
+  Temp [K] of the Lifted Condensation Level: 285.77
+Pres [hPa] of the Lifted Condensation Level: 777.52
+   Equivalent potential temp [K] of the LCL: 343.35
+     Mean mixed layer potential temperature: 307.11
+              Mean mixed layer mixing ratio: 12.00
+Precipitable water [mm] for entire sounding: 19.82
+</PRE>
+<H2>67774  Harare (Belvedere) Observations at 21Z 26 Feb 2002</H2>
+<PRE>
+-----------------------------------------------------------------------------
+   PRES   HGHT   TEMP   DWPT   RELH   MIXR   DRCT   SKNT   THTA   THTE   THTV
+    hPa     m      C      C      %    g/kg    deg   knot     K      K      K 
+-----------------------------------------------------------------------------
+  856.0   1472   20.0   13.0     64  11.11     60      3  306.5  340.2  308.5
+  850.0   1533   20.0   12.0     60  10.47                307.1  339.0  309.0
+  830.0   1738   20.0    7.0     43   7.62                309.2  332.9  310.6
+  750.0   2600   13.0    4.0     54   6.84                310.7  332.1  311.9
+  740.0   2712   12.0    4.0     58   6.93                310.8  332.5  312.1
+  665.0   3595    5.0   -2.0     61   4.99                312.5  328.5  313.5
+  650.0   3782    7.0   -5.0     42   4.08                316.8  330.2  317.6
+  630.0   4040   10.0  -28.0      5   0.61                323.1  325.4  323.2
+  550.0   5146    1.0  -35.0      5   0.36                325.2  326.6  325.3
+  450.0   6718  -11.5  -44.5      5   0.16                328.7  329.4  328.7
+  350.0   8582  -27.5  -56.5      5   0.05                331.6  331.8  331.6
+  175.0  13174  -65.5                                     341.7         341.7
+  125.0  15177  -73.5                                     361.7         361.7
+   80.0  17765  -76.1                                     405.5         405.5
+   70.0  18540  -73.1                                     427.7         427.7
+   60.0  19449  -70.1                                     453.6         453.6
+   40.0  21919  -60.1                                     534.4         534.4
+</PRE><H3>Station information and sounding indices</H3><PRE>
+                             Station number: 67774
+                           Observation time: 020226/2100
+                           Station latitude: -17.83
+                          Station longitude: 31.01
+                          Station elevation: 1472.0
+                            Showalter index: 2.38
+                               Lifted index: 4.27
+    LIFT computed using virtual temperature: 3.70
+                                    K index: 29.46
+                         Cross totals index: 16.94
+                      Vertical totals index: 24.94
+                        Totals totals index: 41.87
+      Convective Available Potential Energy: 0.00
+             CAPE using virtual temperature: 0.00
+                      Convective Inhibition: 0.00
+             CINS using virtual temperature: 0.00
+  Temp [K] of the Lifted Condensation Level: 279.25
+Pres [hPa] of the Lifted Condensation Level: 705.40
+   Equivalent potential temp [K] of the LCL: 334.53
+     Mean mixed layer potential temperature: 308.55
+              Mean mixed layer mixing ratio: 8.55
+Precipitable water [mm] for entire sounding: 15.61
+</PRE>
+<P>Description of the 
+<A HREF="/upperair/columns.html">data columns</A>
+or <A HREF="/upperair/indices.html">sounding indices</A>.
+
+<P>
+<FORM>
+<INPUT CLASS="button" TYPE="button" VALUE=" Close this window " 
+ onClick="window.close();">
+<INPUT CLASS="button" TYPE="button" VALUE=" Select another map " 
+ onClick="window.blur();">
+</FORM>
+<HR SIZE="1">
+<I>Interested in graduate studies in atmospheric science?
+Check out our program at the
+<a href="http://www.uwyo.edu/atsc/howtoapply/"
+target=_top>University of Wyoming
+</a></I>
+<HR SIZE="1"><FONT SIZE="-1">
+Questions about the weather data provided by this site can be
+addressed to <A HREF="mailto:ldoolman@uwyo.edu">
+Larry Oolman (ldoolman@uwyo.edu)</A></FONT>
+<HR SIZE="1">
+<SCRIPT TYPE="text/javascript">
+<!--
+window.focus();
+// -->
+</SCRIPT>
+</BODY>
+</HTML>
