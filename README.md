@@ -6,6 +6,9 @@ Please note that relative and absolute file paths within the scripts and Jupyter
 ## Data Processing
 (Pre)processing and preliminary analysis needed for the DYAMOND2 output, ERA5 reanalysis, and DARDAR observations.
 ### DYAMOND2
+DYAMOND2 (winter phase) output can be accessed by contacting ESiWACE; see instructions [here](https://www.esiwace.eu/the-project/past-phases/dyamond-initiative). Full descriptions of the models and their outputs are provided by DKRZ [here](https://easy.gems.dkrz.de/DYAMOND/Winter/index.html).
+
+In this study, the existing DYAMOND2 output from DKRZ was subset into 10°x10° and/or 30°S - 10°N regions, then processed further for analysis:
 * ...
 ### ERA5
 * ...
