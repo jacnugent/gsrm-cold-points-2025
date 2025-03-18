@@ -4,16 +4,16 @@ Code used in Nugent et al., revised manuscript under review at _Earth and Space 
 Please note that relative and absolute file paths within the scripts and Jupyter notebooks listed below, as well as the names of files and directories, may have changed since they were last run. These scripts and notebooks therefore may not run "out of the box."
 
 ## Data Processing
-(Pre)processing and preliminary analysis needed for the DYAMOND2 output, ERA5 reanalysis, and DARDAR observations.
+(Pre)processing and preliminary analysis needed for the DYAMOND2 output, ERA5 reanalysis, and DARDAR observations. Dates/regions/file paths in the processing scripts below should be changed as needed and script headers should be updated.
 ### DYAMOND2
 DYAMOND2 (winter phase) output can be accessed by contacting ESiWACE; see instructions [here](https://www.esiwace.eu/the-project/past-phases/dyamond-initiative). Full descriptions of the models and their outputs are provided by DKRZ [here](https://easy.gems.dkrz.de/DYAMOND/Winter/index.html). In this study, the existing DYAMOND2 output from DKRZ was subset into 10°x10° and/or 30°S - 10°N regions, then processed further for analysis. See below for details:
 * (TODO!)
 ### ERA5
-Run get_files/get_era5_ml.sh to download the model-level reanalysis data. Then run process_files/process_era5_ml_itcz.sh to get the temperature and geopotential height files as netcdfs. 
+Run get_era5_ml.sh to download the model-level reanalysis data. Then run process_era5_ml_itcz.sh to get the temperature and geopotential height files as netcdfs. 
 ### DARDAR
 DARDAR data in this study was subset from the larger regions used in Nugent and Bretherton (2023), _GRL_. See the instructions in that repository [here](https://github.com/jacnugent/tropical-conv-os-2023/tree/main?tab=readme-ov-file#dardar). The larger 30°S - 10°N region was downloaded/processed using those same scripts. 
 ### MERGIR
-Follow the "Subset/Get Data" link on the NCEP/CPC GPM_MERGIR page ([doi:10.5067/P4HZB9N27EKU](https://doi.org/10.5067/P4HZB9N27EKU)). Download links lists for each region/year and then run get_files/get_mergir.sh to download and concatenate files into one file per region. Then run process_files/get_mergir_3h.sh to resample the half hourly files every 3 hours. 
+Follow the "Subset/Get Data" link on the NCEP/CPC GPM_MERGIR page ([doi:10.5067/P4HZB9N27EKU](https://doi.org/10.5067/P4HZB9N27EKU)). Download links lists for each region/year and then run get_mergir.sh to download and concatenate files into one file per region. Then run get_mergir_3h.sh to resample the half hourly files every 3 hours. 
 
 ## Figures
 Scripts needed to generate the figures used in the paper. Also includes processing of the QBO/ENSO index data and the IGRA sounding data.
