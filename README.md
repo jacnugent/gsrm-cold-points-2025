@@ -5,7 +5,7 @@ Please note that relative and absolute file paths within the scripts and Jupyter
 
 ## Data Processing
 (Pre)processing and preliminary analysis needed for the DYAMOND2 output, ERA5 reanalysis, and DARDAR observations. Dates/regions/file paths in the processing scripts below should be changed as needed and script headers should be updated.
-### DYAMOND2
+### DYAMOND2 ([shell_scripts/dyamond2](shell_scripts/dyamond2/))
 DYAMOND2 (winter phase) output can be accessed by contacting ESiWACE; see instructions [here](https://www.esiwace.eu/the-project/past-phases/dyamond-initiative). Full descriptions of the models and their outputs are provided by DKRZ [here](https://easy.gems.dkrz.de/DYAMOND/Winter/index.html). In this study, the existing DYAMOND2 output from DKRZ was subset into 10°x10° and/or 30°S - 10°N regions, then processed further for analysis. See below for details on the scripts that should be run for each step. Note that all of these scripts were written to be submitted as batch jobs and need headers updated before running.
 1. Subset 30°S - 10°N region from each model for temperature, height, w, frozen hydrometeors (ice/snow/graupel), humidity, and OLR (2d variable) and concatenate into one file per model & variable.
 	* GEOS: geos_qiqg.sh, geos_qv.sh, geos_temp.sh, geos_zg.sh, geos_w.sh, sub_geos2d.sh, cat_geos.sh
@@ -25,14 +25,14 @@ DYAMOND2 (winter phase) output can be accessed by contacting ESiWACE; see instru
 	* Remap the cold point indices (0.25° resolution) onto the native grid: remapnn_cpT.sh
 	* Subset the cold point indices for the 10°x10° regions: 10x10_subset_cp_inds.sh
 8. Put the brightness temperature threshold for overshooting convection (i.e., the cold point temperature) onto the native grid: remapnn_tb_thresh_025.nc
-### ERA5
+### ERA5 ([shell_scripts/](shell_scripts/))
 Run get_era5_ml.sh to download the model-level reanalysis data. Then run process_era5_ml_itcz.sh to get the temperature and geopotential height files as netcdfs. 
-### DARDAR
+### DARDAR 
 DARDAR data in this study was subset from the larger regions used in Nugent and Bretherton (2023), _GRL_. See the instructions in that repository [here](https://github.com/jacnugent/tropical-conv-os-2023/tree/main?tab=readme-ov-file#dardar). The larger 30°S - 10°N region was downloaded/processed using those same scripts. 
-### MERGIR
+### MERGIR ([shell_scripts/](shell_scripts/))
 Follow the "Subset/Get Data" link on the NCEP/CPC GPM_MERGIR page ([doi:10.5067/P4HZB9N27EKU](https://doi.org/10.5067/P4HZB9N27EKU)). Download links lists for each region/year and then run get_mergir.sh to download and concatenate files into one file per region. Then run get_mergir_3h.sh to resample the half hourly files every 3 hours. 
 
-## Analaysis and Figures
+## Analaysis ([notebooks/](notebooks/)) and Figures ([plots/](plots/))
 Scripts needed to generate the figures used in the paper. Also includes processing of the QBO/ENSO index data and the IGRA sounding data.
 * **Figure 1**: tropics_map_d2.ipynb
 * **Figure 2**: 10x10_UTLS_temp_profiles.ipynb
@@ -44,9 +44,9 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 		* Big observation regions binned using analysis from Nugent and Bretherton (2023), *GRL*; see the relevant notebooks from [Figs. 1, 2, S2, and S3 in that repository](https://github.com/jacnugent/tropical-conv-os-2023/tree/main?tab=readme-ov-file#figures-1-2-s2-and-s3)
 	* GSRMs:
 		* Tb-Tcp differences binned in d2_tb-tcp_hist.ipynb
-		* Frozen water binned in bin_by_diffs_d2.sh
+		* Frozen water binned in shell_scripts/bin_by_diffs_d2.sh
 * **Figures 6-7, S4-S5**: d2_joint_Tb-cpT_histograms.ipynb
-	* Observation histograms computed in get_Tb-cpT_hist_d2.sh 
+	* Observation histograms computed in shell_scripts/get_Tb-cpT_hist_d2.sh 
 	* GSRM histograms also computed in d2_joint_Tb-cpT_histograms.ipynb
 * **Figures 8, 11**: d2_paper_coarsened_heatmaps_os_ci.ipynb
 	* Overshooting convection frequencies calculated in d2_calc_os_counts.ipynb
@@ -60,7 +60,7 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 * **Convective and "other stratospheric" cirrus fractions**: Calculated in d2_cirrus_fractions.ipynb.
 
 ## Other Files
-### Python Scripts
+### Python Scripts ([python_scripts/](python_scripts/))
 * **split_soundings.py**: Split up a text file containing data from many soundings into individual files that can be read into python.
 * **model_grid.py**: Read in arrays of coordinates of GSRM grids, calculate ICON height, etc.
 * **get_d2_data.py**: Read in (already processed/subset) GSRM files for 10x10 regions.
@@ -69,8 +69,8 @@ Scripts needed to generate the figures used in the paper. Also includes processi
 * **bin_d2.py**: Make and save histogram files (for the binned plots) of ice/frozen water binned by Tb-Tcp for the GSRMs. Runs bin_overshoot.py.
 * **calc_cold_point....py**: Calculates the number of time steps that each pixel/grid point has an ice mixing ratio above the radiatively-active threshold for a 1 km layer near the cold point. Separate scripts for GSRMs and observations (..._obs...) and for cold point +/- 1000m or cold point only (..._at_cp_only.py)
 * **get_era5_climo_ml.py** and **compute_geopotential_on_ml.py**: Helper scripts to download and processes ERA5 reanalysis.
-### Helper Jupyter Notebooks
+### Helper Jupyter Notebooks ([notebooks/helper/](notebooks/helper))
 * **find_coords.ipynb**: Get .csv files of SCREAM coordinates.
 * **get_model_vert_inds.ipynb**: Make SCREAM_est_height_12-20km.nc file.
-### Pickle Files
+### Pickle Files ([pickle_files/](pickle_files/))
 Contains pickle files created, saved, and used in the notebooks and scripts for plotting outlined above as well as the colormap used in Figure 2. 
