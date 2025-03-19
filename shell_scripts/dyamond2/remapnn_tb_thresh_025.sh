@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=remapnn_tb
-#SBATCH --partition=interactive
-#SBATCH --mem=100GB
-#SBATCH --ntasks=1
-#SBATCH --time=03:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=remapnn_tb.eo%j
-#SBATCH --error=remapnn_tb_err.eo%j
+# header goes here
+# recommended: 100GB mem, 3h 
 
 set -evx # verbose messages and crash message
 

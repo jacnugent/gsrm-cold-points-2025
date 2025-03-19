@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=conv_bin_d2
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=50GB
-#SBATCH --time=04:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=conv_bin_d2.eo%j
-#SBATCH --error=conv_bin_d2_err.eo%j
+# header goes here
+# recommended: 50GB mem, 4 hours
 
 set -evx # verbose messages and crash message
 

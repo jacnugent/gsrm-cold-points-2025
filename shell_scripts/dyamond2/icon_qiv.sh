@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=icon_qi_qv
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=100GB
-#SBATCH --time=08:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=icon_qi_qv.eo%j
-#SBATCH --error=icon_qi_qv_err.eo%j
+# header goes here
+# recommended: 100GB mem, 8h 
 
 set -evx # verbose messages and crash message
 
@@ -48,11 +38,11 @@ for f in $IN_PATH/$MODEL_PATH/3hr/cli/r1i1p1f1/ml/gn/*_202002*; do
 done
 
 
-# # specific humidity
-# #for f in $IN_PATH/$MODEL_PATH/3hr/hus/r1i1p1f1/ml/gn/*; do
-# # 2/01 onward
-# for f in $IN_PATH/$MODEL_PATH/3hr/hus/r1i1p1f1/ml/gn/*_202002*; do
-#     fname=$(basename $f)
-#     out_file=$OUT_PATH/"12-20_"$fname
-#     cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -sellevel,34/50 -setgrid,$GRID_FILE $f $out_file
-# done
+# specific humidity
+#for f in $IN_PATH/$MODEL_PATH/3hr/hus/r1i1p1f1/ml/gn/*; do
+# 2/01 onward
+for f in $IN_PATH/$MODEL_PATH/3hr/hus/r1i1p1f1/ml/gn/*_202002*; do
+    fname=$(basename $f)
+    out_file=$OUT_PATH/"12-20_"$fname
+    cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -sellevel,34/50 -setgrid,$GRID_FILE $f $out_file
+done

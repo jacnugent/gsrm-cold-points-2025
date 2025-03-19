@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=scream_qi
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=20GB
-#SBATCH --time=04:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=scream_qi.eo%j
-#SBATCH --error=scream_qi_err.eo%j
+# header goes here
+# recommended: 20GB mem, 4h 
 
 set -evx # verbose messages and crash message
 

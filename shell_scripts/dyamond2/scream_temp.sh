@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=scream_T
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=20GB
-#SBATCH --time=05:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=scream_T.eo%j
-#SBATCH --error=scream_T_err.eo%j
+# header goes here
+# recommended: 20GB mem, 5h 
 
 set -evx # verbose messages and crash message
 
@@ -29,11 +19,11 @@ LAT1=10
 # 12-20 km
 levels="23/55"
 
-# for f in $IN_PATH/$MODEL_PATH/3hr/ta/r1i1p1f1/ml/gn/*; do
-#     fname=$(basename $f)
-#     out_file=$OUT_PATH/"12-_20km_"$fname
-#     cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -sellevidx,$levels -setgrid,$GRID_FILE $f $out_file
-# done
+for f in $IN_PATH/$MODEL_PATH/3hr/ta/r1i1p1f1/ml/gn/*; do
+    fname=$(basename $f)
+    out_file=$OUT_PATH/"12-_20km_"$fname
+    cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -sellevidx,$levels -setgrid,$GRID_FILE $f $out_file
+done
 
 
 # cat right away

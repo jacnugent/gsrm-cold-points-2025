@@ -1,15 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=feb20_get_era5
-#SBATCH --partition=shared
-#SBATCH --ntasks=1
-#SBATCH --time=1-06:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=feb20_out_era5.eo%j
-#SBATCH --error=feb20_out_era5_err.eo%j
+# header goes here
+# recommended: a lot of time, not a lot of memory
 
 set -evx # verbose messages and crash message
 

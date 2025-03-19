@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=get_hist
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=50GB
-#SBATCH --time=02:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=get_hist.eo%j
-#SBATCH --error=get_hist_err.eo%j
+# header goes here
+# recommended: 50GB mem, 2h 
 
 # set -evx # verbose messages and crash message
 

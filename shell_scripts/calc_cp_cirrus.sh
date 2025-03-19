@@ -1,21 +1,8 @@
 #!/bin/bash
-#SBATCH --job-name=d_cpcirrus
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=25GB
-#SBATCH --time=03:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=d_cpcirrus.eo%j
-#SBATCH --error=d_cpcirrus_err.eo%j
+# header goes here
+# recommended: 50GB mem, 6h for the models, 25 GB mem, 2h for obs
 
 set -evx # verbose messages and crash message
-
-# 50GB mem, 6h for the models
-# 25 GB mem, 2h for obs
 
 module load python3
 source activate /home/b/b380887/.conda/envs/d2env
@@ -38,7 +25,7 @@ SCRIPT_PATH="/home/b/b380887/cold-point-overshoot/python_scripts"
 # --- MODELS ---
 # u flag so it doesn't buffer the print statements
 # python -u $SCRIPT_PATH/calc_cold_point_cirrus.py -m $MODEL -f $FILE_PATH -o $OUT_PATH -i $INDEX_PATH -c $CHUNKS
-#python -u $SCRIPT_PATH/calc_cold_point_cirrus_at_cp_only.py -m $MODEL -f $FILE_PATH -o $OUT_PATH -i $INDEX_PATH -c $CHUNKS
+python -u $SCRIPT_PATH/calc_cold_point_cirrus_at_cp_only.py -m $MODEL -f $FILE_PATH -o $OUT_PATH -i $INDEX_PATH -c $CHUNKS
 
 
 # # --- OBSERVATIONS ---

@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=tb_3h
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=50GB
-#SBATCH --time=03:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=tb_3h.eo%j
-#SBATCH --error=tb_3h_err.eo%j
+# header goes here
+# recommended: 50GB mem, 3h 
 
 set -evx # verbose messages and crash message
 

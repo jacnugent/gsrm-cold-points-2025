@@ -1,15 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=sub_sam
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --time=09:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=sub_sam.eo%j
-#SBATCH --error=sub_sam_err.eo%j
+# header goes here
+# recommended: 100GB mem, 9h 
 
 set -evx # verbose messages and crash message
 module load cdo

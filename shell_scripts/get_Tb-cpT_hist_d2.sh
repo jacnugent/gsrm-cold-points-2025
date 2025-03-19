@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=get_hist_d2
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=50GB
-#SBATCH --time=02:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=d2_get_hist.eo%j
-#SBATCH --error=d2_get_hist_err.eo%j
+# header goes here
+# recommended: 50GB mem, 2h 
 
 # set -evx # verbose messages and crash message
 
@@ -31,8 +21,8 @@ declare -a RegionArr=(SPC) # AMZ SCA TIM)
 for year in "${YearArr[@]}"; do
     echo $year
     for region in "${RegionArr[@]}"; do
-        # echo "Getting regridded cold point temperature file..."
-        # python $SCRIPT_PATH/cold_point_reindex.py -y $year -r $region -m "DJF" -f $FILE_PATH/$region -o $FILE_PATH/$region
+        echo "Getting regridded cold point temperature file..."
+        python $SCRIPT_PATH/cold_point_reindex.py -y $year -r $region -m "DJF" -f $FILE_PATH/$region -o $FILE_PATH/$region
         echo "Get the histogram dictionary..."
         python $SCRIPT_PATH/biv_hist.py -y $year -r $region -m "DJF" -f $FILE_PATH/$region -p $PICKLE_PATH --no_spc_split
         echo "...done with "$region

@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=20icon_gt2d
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=100GB
-#SBATCH --time=08:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=20icon_2d.eo%j
-#SBATCH --error=20icon_2d_err.eo%j
+# header goes here
+# recommended: 100GB mem, 8h 
 
 set -evx # verbose messages and crash message
 module load cdo
@@ -40,20 +30,20 @@ for v in "${VarArray15min[@]}"; do
     done
 done
 
-# # 1/30 to 1/31
-# for v in "${VarArray15min[@]}"; do
-#     for f in $IN_PATH/$MODEL_PATH/15min/$v/r1i1p1f1/2d/gn/*_2020013*; do
-#         fname=$(basename $f)
-#         out_file=$OUT_PATH/$fname
-#         cdo -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -setgrid,$GRID_FILE $f $out_file
-#     done
-# done
+# 1/30 to 1/31
+for v in "${VarArray15min[@]}"; do
+    for f in $IN_PATH/$MODEL_PATH/15min/$v/r1i1p1f1/2d/gn/*_2020013*; do
+        fname=$(basename $f)
+        out_file=$OUT_PATH/$fname
+        cdo -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -setgrid,$GRID_FILE $f $out_file
+    done
+done
 
-# # All of Feb
-# for v in "${VarArray15min[@]}"; do
-#     for f in $IN_PATH/$MODEL_PATH/15min/$v/r1i1p1f1/2d/gn/*_202002*; do
-#         fname=$(basename $f)
-#         out_file=$OUT_PATH/$fname
-#         cdo -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -setgrid,$GRID_FILE $f $out_file
-#     done
-# done
+# All of Feb
+for v in "${VarArray15min[@]}"; do
+    for f in $IN_PATH/$MODEL_PATH/15min/$v/r1i1p1f1/2d/gn/*_202002*; do
+        fname=$(basename $f)
+        out_file=$OUT_PATH/$fname
+        cdo -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -setgrid,$GRID_FILE $f $out_file
+    done
+done

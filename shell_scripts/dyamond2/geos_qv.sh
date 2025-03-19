@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=geos_qv
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=20GB
-#SBATCH --time=08:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=geos_qv.eo%j
-#SBATCH --error=geos_qv_err.eo%j
+# header goes here
+# recommended: 20GB mem, 8h 
 
 set -evx # verbose messages and crash message
 

@@ -1,16 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=sub10_cpind
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --time=06:00:00
-#SBATCH --mem=50GB
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=sub10_cpind.eo%j
-#SBATCH --error=sub10_cpind_err.eo%j
+# header goes here
+# recommended: 50GB mem, 6h 
+
 
 set -evx # verbose messages and crash message
 

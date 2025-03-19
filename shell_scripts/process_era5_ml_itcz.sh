@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=proc_era5_i
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=50GB
-#SBATCH --time=09:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=pro_era5_i.eo%j
-#SBATCH --error=pro_era5_i_err.eo%j
+# header goes here
+# recommended: 50GB mem, 9h 
 
 set -evx # verbose messages and crash message
 

@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=sub_shield
-#SBATCH --partition=interactive
-#SBATCH --mem=20GB
-#SBATCH --ntasks=1
-#SBATCH --time=08:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=sub_shield.eo%j
-#SBATCH --error=sub_shield_err.eo%j
+# header goes here
+# recommended: 20GB mem, 8h 
 
 set -evx # verbose messages and crash message
 
@@ -46,7 +36,7 @@ for v in "${VarArray15min[@]}"; do
 done
 
 
-# # Get the geopotential heights for one file so you can get a rough estimate of the 3D indices needed for 12-20 km
-# in_file_zg=/work/ka1081/DYAMOND_WINTER/NOAA/SHiELD-3km/DW-ATM/atmos/3hr/zg/r1i1p1f1/ml/gn/zg_3hr_SHiELD-3km_DW-ATM_r1i1p1f1_ml_gn_20200214030000-20200215000000.nc
-# out_file_zg=$OUT_PATH/test_zg_ITCZ.nc
-# cdo -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -setgridtype,unstructured -setgrid,$GRID_FILE $in_file_zg $out_file_zg
+# Get the geopotential heights for one file so you can get a rough estimate of the 3D indices needed for 12-20 km
+in_file_zg=/work/ka1081/DYAMOND_WINTER/NOAA/SHiELD-3km/DW-ATM/atmos/3hr/zg/r1i1p1f1/ml/gn/zg_3hr_SHiELD-3km_DW-ATM_r1i1p1f1_ml_gn_20200214030000-20200215000000.nc
+out_file_zg=$OUT_PATH/test_zg_ITCZ.nc
+cdo -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -setgridtype,unstructured -setgrid,$GRID_FILE $in_file_zg $out_file_zg

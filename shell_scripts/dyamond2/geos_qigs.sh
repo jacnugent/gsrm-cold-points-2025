@@ -1,16 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=geos_qgs
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=20GB
-#SBATCH --time=11:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=geos_qgs.eo%j
-#SBATCH --error=geos_qgs_err.eo%j
+# header goes here
+# recommended: 20GB mem, 11h 
+
 
 set -evx # verbose messages and crash message
 module load cdo
@@ -62,17 +53,17 @@ for f in $IN_PATH/$MODEL_PATH/1hr/snowmxrat/r1i1p1f1/ml/gn/*_202002*; do
 done
 
 
-# # ----- graupel -----
-# # 1/30-1/31
-# for f in $IN_PATH/$MODEL_PATH/1hr/grplmxrat/r1i1p1f1/ml/gn/*_2020013*; do
-#     fname=$(basename $f)
-#     out_file=$OUT_PATH/"12-_20km_"$fname
-#     cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -sellevidx,$levels $f $out_file  
-# done
+# ----- graupel -----
+# 1/30-1/31
+for f in $IN_PATH/$MODEL_PATH/1hr/grplmxrat/r1i1p1f1/ml/gn/*_2020013*; do
+    fname=$(basename $f)
+    out_file=$OUT_PATH/"12-_20km_"$fname
+    cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -sellevidx,$levels $f $out_file  
+done
 
-# # all of Feb
-# for f in $IN_PATH/$MODEL_PATH/1hr/grplmxrat/r1i1p1f1/ml/gn/*_202002*; do
-#     fname=$(basename $f)
-#     out_file=$OUT_PATH/"12-_20km_"$fname
-#     cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -sellevidx,$levels $f $out_file
-# done
+# all of Feb
+for f in $IN_PATH/$MODEL_PATH/1hr/grplmxrat/r1i1p1f1/ml/gn/*_202002*; do
+    fname=$(basename $f)
+    out_file=$OUT_PATH/"12-_20km_"$fname
+    cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 -sellevidx,$levels $f $out_file
+done

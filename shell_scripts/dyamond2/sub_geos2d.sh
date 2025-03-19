@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=sub_geos_2d
-#SBATCH --partition=interactive
-#SBATCH --mem=20GB
-#SBATCH --ntasks=1
-#SBATCH --time=06:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=sub_g.eo%j
-#SBATCH --error=sub_g_err.eo%j
+# header goes here
+# recommended: 20GB mem, 6h 
 
 set -evx # verbose messages and crash message
 module load cdo
@@ -47,24 +37,24 @@ done
 
 
 
-# # 1/20-1/29 (skip the 1st 5 days)
-# for f in $IN_PATH/$MODEL_PATH/15min/rlut/r1i1p1f1/2d/gn/*_2020012*; do
-#     fname=$(basename $f)
-#     out_file=$OUT_PATH/"12-_20km_"$fname
-#     cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 $f $out_file  
-# done
+# 1/20-1/29 (skip the 1st 5 days)
+for f in $IN_PATH/$MODEL_PATH/15min/rlut/r1i1p1f1/2d/gn/*_2020012*; do
+    fname=$(basename $f)
+    out_file=$OUT_PATH/"12-_20km_"$fname
+    cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 $f $out_file  
+done
 
-# # 1/30-1/31
-# for f in $IN_PATH/$MODEL_PATH/15min/rlut/r1i1p1f1/2d/gn/*_2020013*; do
-#     fname=$(basename $f)
-#     out_file=$OUT_PATH/"12-_20km_"$fname
-#     cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 $f $out_file  
-# done
+# 1/30-1/31
+for f in $IN_PATH/$MODEL_PATH/15min/rlut/r1i1p1f1/2d/gn/*_2020013*; do
+    fname=$(basename $f)
+    out_file=$OUT_PATH/"12-_20km_"$fname
+    cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 $f $out_file  
+done
 
-# # all of Feb
-# for f in $IN_PATH/$MODEL_PATH/15min/rlut/r1i1p1f1/2d/gn/*_202002*; do
-#     fname=$(basename $f)
-#     out_file=$OUT_PATH/"12-_20km_"$fname
-#     cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 $f $out_file
-# done
+# all of Feb
+for f in $IN_PATH/$MODEL_PATH/15min/rlut/r1i1p1f1/2d/gn/*_202002*; do
+    fname=$(basename $f)
+    out_file=$OUT_PATH/"12-_20km_"$fname
+    cdo -f nc -sellonlatbox,$LON0,$LON1,$LAT0,$LAT1 $f $out_file
+done
 

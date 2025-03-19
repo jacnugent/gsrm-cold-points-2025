@@ -1,16 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=sh_remapcon
-#SBATCH --partition=interactive
-#SBATCH --ntasks=1
-#SBATCH --mem=20GB
-#SBATCH --time=04:00:00
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
-#SBATCH --mail-user=jnug@uw.edu
-#SBATCH --account=bb1153
-#SBATCH --output=sh_rmcon.eo%j
-#SBATCH --error=sh_rmcon_err.eo%j
+# header goes here
+# recommended: 20GB mem, 4h 
 
 set -evx # verbose messages and crash message
 
@@ -43,23 +33,12 @@ cdo remapcon,$GRIDS/itcz_0.25deg_grid.txt -setgrid,$GRID_FILE $ZG_IN3 $ZG_OUT3
 cdo remapcon,$GRIDS/itcz_0.25deg_grid.txt -setgrid,$GRID_FILE $ZG_IN4 $ZG_OUT4
 
 
-# # OLR: hourly, 1x1
-# OLR_IN=$FILE_PATH/SHIELD_OLR_winter_ITCZ.nc
-# OLR_OUT=$FILE_PATH/SHIELD_hourly_1x1_OLR_winter_ITCZ.nc
-# cdo -timselmean,4,0 -remapcon,$GRIDS/itcz_1x1_grid.txt -setgrid,$GRID_FILE $OLR_IN $OLR_OUT
+# temperature: 0.25deg
+TEMP_IN=$FILE_PATH/SHIELD_temp_12-20km_winter_ITCZ_days10-40.nc
+TEMP_OUT=$FILE_PATH/SHIELD_temp_0.25deg_12-20km_winter_ITCZ_days10-40.nc
+cdo remapcon,$GRIDS/itcz_0.25deg_grid.txt -setgrid,$GRID_FILE $TEMP_IN $TEMP_OUT
 
-# # precip: 30 min, 0.1deg
-# PR_IN=$FILE_PATH/SHIELD_pr_winter_ITCZ.nc
-# PR_OUT=$FILE_PATH/SHIELD_pr_30min_0.1deg_winter_ITCZ.nc
-# cdo -timselmean,2,0 -remapcon,$GRIDS/itcz_0.1deg_grid.txt -setgrid,$GRID_FILE $PR_IN $PR_OUT
-
-
-# # temperature: 0.25deg
-# TEMP_IN=$FILE_PATH/SHIELD_temp_12-20km_winter_ITCZ_days10-40.nc
-# TEMP_OUT=$FILE_PATH/SHIELD_temp_0.25deg_12-20km_winter_ITCZ_days10-40.nc
-# cdo remapcon,$GRIDS/itcz_0.25deg_grid.txt -setgrid,$GRID_FILE $TEMP_IN $TEMP_OUT
-
-# # geopotential height: 0.25deg
-# ZG_IN=$FILE_PATH/SHIELD_zg_12-20km_winter_ITCZ_days10-40.nc
-# ZG_OUT=$FILE_PATH/SHIELD_zg_0.25deg_12-20km_winter_ITCZ_days10-40.nc
-# cdo remapcon,$GRIDS/itcz_0.25deg_grid.txt -setgrid,$GRID_FILE $ZG_IN $ZG_OUT
+# geopotential height: 0.25deg
+ZG_IN=$FILE_PATH/SHIELD_zg_12-20km_winter_ITCZ_days10-40.nc
+ZG_OUT=$FILE_PATH/SHIELD_zg_0.25deg_12-20km_winter_ITCZ_days10-40.nc
+cdo remapcon,$GRIDS/itcz_0.25deg_grid.txt -setgrid,$GRID_FILE $ZG_IN $ZG_OUT
